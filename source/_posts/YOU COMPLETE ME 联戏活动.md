@@ -1,6 +1,6 @@
 ---
 title: YOU COMPLETE ME 联戏活动
-date: 2018-06-07 18:00:00
+date: 2018-06-06 18:00:00
 categories: 活动
 tags: 联戏
 

@@ -8,12 +8,12 @@ subtitle: -ONF重皮唠嗑组-
 description: 
 author: Ze_i
 language: zh-CN
-timezone: 
+timezone: GMT
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://nodejh.github.io/hexo-documentation
+root: /hexo-documentation/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -77,4 +77,7 @@ theme: Alpha-Dust
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/Zei1031/hexo-documentation
+  branch: gh-pages
+  message: "Docs updated: {{ now ('YYYY-MM-DD HH:mm:ss') }}"
